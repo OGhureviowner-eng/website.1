@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags for proper character encoding and responsive behavior -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Developer Portfolio of Humberto Halo - Projects, Concepts, and Class Works">
+
+  <!-- Page title -->
+  <title>Main Page - Developer Portfolio</title>
+
+  <!-- Google Fonts import (Roboto and Oswald) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+  <!-- External CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Particle background canvas (fixed behind everything) -->
+  <canvas id="background-canvas"></canvas>
+
+  <!-- Header section with logo, navigation, and controls -->
+  <header class="header">
+    <div class="logo">
+      <!-- Placeholder logo image (you can replace the src with your own) -->
+      <img src="https://via.placeholder.com/40/00b8d8/000000?text=HH" alt="Humberto Halo Logo">
+      <span>Humberto Halo</span>
+    </div>
+
+    <!-- Main navigation menu -->
+    <nav class="nav" id="nav-menu">
+      <a href="index.html" class="active">Home</a>
+      <a href="course.html">Course</a>
+      <a href="mainprojects.html">Projects</a>
+      <a href="concept.html">Concepts</a>
+      <a href="database.html">Database</a>
+      <a href="documentations.html">Documentations</a>
+      <a href="aboutd.html">About Dev</a>
+    </nav>
+
+    <!-- Mobile menu toggle button -->
+    <button class="menu-toggle" aria-label="Toggle navigation menu" id="menu-toggle">☰</button>
+
+    <!-- Theme toggle button (dark/light mode) -->
+    <button class="theme-toggle" aria-label="Toggle theme" id="theme-toggle">🌙</button>
+  </header>
+
+  <!-- Main content container -->
+  <main class="container fade-in">
+    <!-- Main title with typing effect -->
+    <h1 class="main-title">
+      <span class="typing"></span><span class="cursor">|</span>
+    </h1>
+
+    <!-- Subtitle/description -->
+    <p class="subtitle">Explore my projects, concepts, class works, and more.</p>
+
+    <!-- Grid of main cards -->
+    <div class="grid-container fade-in">
+      <a href="course.html" class="card" aria-label="Go to Course page">
+        <div class="card-title">Course</div>
+      </a>
+      <a href="mainprojects.html" class="card" aria-label="Go to Projects page">
+        <div class="card-title">Projects</div>
+      </a>
+      <a href="concept.html" class="card" aria-label="Go to Concepts page">
+        <div class="card-title">Concepts</div>
+      </a>
+      <a href="database.html" class="card" aria-label="Go to Database page">
+        <div class="card-title">Database</div>
+      </a>
+      <a href="documentations.html" class="card" aria-label="Go to Documentations page">
+        <div class="card-title">Documentations</div>
+      </a>
+      <a href="aboutd.html" class="card" aria-label="Go to About Dev page">
+        <div class="card-title">About Dev</div>
+      </a>
+    </div>
+
+    <!-- Single large button below grid -->
+    <div class="bottom-button-container fade-in">
+      <a href="classworks.html" class="card bottom-button" aria-label="Go to My Class Works">
+        <div class="card-title">My Class Works</div>
+      </a>
+    </div>
+
+    <!-- Four bottom buttons in a row -->
+    <div class="bottom-buttons-grid fade-in">
+      <a href="concept2.html" class="card bottom-button" aria-label="More Concepts">
+        <div class="card-title">More Concepts</div>
+      </a>
+      <a href="https://github.com/HumbertoHalo?tab=repositories" target="_blank" rel="noopener" class="card bottom-button" aria-label="My GitHub Repository">
+        <div class="card-title">My Repository</div>
+      </a>
+      <a href="https://humbertohalo.github.io/os-history-quest/" target="_blank" rel="noopener" class="card bottom-button" aria-label="Play OS Quest game">
+        <div class="card-title">Play OS Quest</div>
+      </a>
+      <a href="binary2base10.html" class="card bottom-button" aria-label="Binary to Base 10 Converter">
+        <div class="card-title">Binary to Base 10</div>
+      </a>
+    </div>
+  </main>
+
+  <!-- Footer section -->
+  <footer class="footer fade-in">
+    <p>&copy; 2026 Humberto Halo. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://github.com/HumbertoHalo" target="_blank" rel="noopener" aria-label="GitHub Profile">GitHub</a>
+    </div>
+  </footer>
+
+  <!-- External JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
